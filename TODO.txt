@@ -1,9 +1,6 @@
-
 referencement
 
 refaire mon cv
-
-sitemap : tester avec un generateur
 
 http://robots-txt.com/humans-txt/ (voir si possible de linker sur http://humanstxt.org/humans/ )
 
@@ -19,10 +16,9 @@ validation w3c
 
 fleche carousel visible sur touch ? ou que au hover
 
-
 scroll : http://www.youtube.com/watch?v=UydUZLyjKTo
 
-active sur bouton lors du scroll
+active sur bouton lors du scroll -> bugs, revoir la logique
 
 
 $('nav li a').click(function()){
