@@ -1,0 +1,42 @@
+
+referencement
+
+refaire mon cv
+
+sitemap : tester avec un generateur
+
+http://robots-txt.com/humans-txt/ (voir si possible de linker sur http://humanstxt.org/humans/ )
+
+https://www.google.com/webmasters/tools/home?hl=fr
+
+hover sur text carousel = animate
+
+tester nettoyer css slider + mettre dans un seul fichier css 
+
+pour carousel, mettre un bouton sur version mobile qui toggle la description (lorsque .touch =display block, et inversement)
+
+validation w3c
+
+fleche carousel visible sur touch ? ou que au hover
+
+
+scroll : http://www.youtube.com/watch?v=UydUZLyjKTo
+
+active sur bouton lors du scroll
+
+
+$('nav li a').click(function()){
+       $('nav li a').removeClass('active');
+       $(this).addClass('active');
+       var id = $(this).attr('href');
+       scrollTo(id);
+       return false; 
+    });
+    
+    function scrollTo(target){
+        if($(target).length>=1){
+            height=$(target).offset().top;
+        }
+        $('html,body').animate({scrollTop:height}, 1200);
+        return false;
+    }

@@ -1,0 +1,11 @@
+﻿/* TEAM */
+	I'm alone in this project : Guillaume Leclercq 
+	Twitter: @g_leclercq
+	From:Paris, France
+
+/* SITE */
+	Last update:2013/02/18
+	Language:French and maybe english later
+	Doctype:HTML5
+	Languages: HTML5, CSS3, PHP5, Jquery
+	IDE: Eclipse, flexslider, modernizr, boilerplate, FileZilla, Photoshop, illustrator
