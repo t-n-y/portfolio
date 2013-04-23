@@ -1,6 +1,6 @@
 referencement
 
-refaire mon cv
+REFAIRE MON CV !!
 
 verifier css carousel
 
@@ -14,8 +14,7 @@ hover sur text carousel = animate
 
 fleche carousel visible sur touch ? ou que au hover
 
-
-
+internationnalisation
 
 Apres changement nom de domaine
 ----------------------------------------------------------------------------------------------------
@@ -25,7 +24,7 @@ changer hebregement et nom de domaine (voir herbegement gratuit sur ovh)
 	https://www.google.com/webmasters/tools/home?hl=fr
 	http://robots-txt.com/humans-txt/ (voir si possible de linker sur http://humanstxt.org/humans/ )
 	->avatar dans recherche
-	
+	->code pour mon age
 	
 
 

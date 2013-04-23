@@ -58,7 +58,7 @@ $(document).ready(function() {
 			  else {
 				  // whole part of element is visible
 				  $(' #animBar .skillbar').animate({'width':'90%'},1500);	
-				  $(' #animBar .skillbar2').animate({'width':'80%'},1500);
+				  $(' #animBar .skillbar2').animate({'width':'85%'},1500);
 				  $(' #animBar .skillbar3').animate({'width':'70%'},1500);	
 				  $(' #animBar .skillbar4').animate({'width':'50%'},1500);
 				  $(' #animBar .skillbar5').animate({'width':'70%'},1500);	

@@ -251,7 +251,7 @@ footer{text-align: center;width: 390px; margin: auto;}
 footer p{font-size:0.8em;text-align: center;}
 section.social {float:left;margin:0 32px; overflow:hidden;}
 section.social.fb {width:57px; margin-top:-1px;}
-.tweet{width:71px;}
+.tweet{width:68px;}
 
 
 /*--------------------------------------forms---------------------------------------------------------*/
@@ -295,17 +295,16 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-/*.flexslider {margin: 0px 0px 0px; position: relative; zoom: 1;}
+.flexslider {margin: 0px 0px 0px; position: relative; zoom: 1;}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}
-.carousel li {margin-right: 5px}*/
+.carousel li {margin-right: 5px}
 
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {opacity: 1; left: 15px;}
   .flex-direction-nav .flex-next {opacity: 1; right: 15px;}
 }
-
 
 /* FlexSlider Custom
 *********************************/

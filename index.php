@@ -11,6 +11,10 @@
 			$ifIe = 'Vous utilisez un navigateur trop ancien. <a href="http://browsehappy.com/">Mettez le à jour</a> pour améliorer la navigation.';
         }
 	}
+	
+	//calculate my age -> add this on serveur change
+	//$tz  = new DateTimeZone('Europe/Paris');
+	//$age = DateTime::createFromFormat('d/m/Y', '12/05/1988', $tz)->diff(new DateTime('now', $tz))->y;
 	?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -107,8 +111,8 @@
 						</div>
 					</div>
 					<div class="presentation">
-						<p>Hello ! <br>Je m'appelle Guillaume, j'ai 24 ans et ce site est mon portfolio.</p>
-						<p>J'ai suivi une formation de chef de projet multimédia à l'IESA Multimédia. C'est là que j'ai découvert les joies du code.</p>
+						<p>Je m'appelle Guillaume, j'ai <?php //add this on serveur changeecho $age;?>25 ans et ce site est mon portfolio.</p>
+						<p>J'ai suivi une formation de chef de projet multimédia à l'IESA Multimédia. Je me suis ensuite spécialisé dans l'intégration puis le développement.</p>
 						<p>J'ai d'autant plus été séduit par le responsive design. J'aime le défi d'adapter un seul site sur tous les supports.</p>
 						<a href="images/cv.pdf" id="cv" class="btn">Télécharger mon cv</a>
 					</div>
