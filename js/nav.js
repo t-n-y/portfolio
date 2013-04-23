@@ -18,6 +18,11 @@ $(document).ready(function() {
 	    return false;
 	}
 	
+	$('.touch #slider li .blocTxt').on("click", function(){
+		$('.touch #slider li .blocTxt span').toggle();
+		$('.touch #mainCarousel #slider .blocTxt').css({'opacity': '0.8', 'background-position': '94% 20%'});
+	});
+	
 	$('#carousel').flexslider({
 	    animation: "slide",
 	    controlNav: false,

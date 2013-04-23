@@ -146,11 +146,10 @@
 	</div><!--#main-->
 </div><!--#container-->
 <script defer src="js/jquery.flexslider.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/jquery.inview.js"></script>
-<!--  <script type="text/javascript" src="js/localscroll/jquery.localscroll.js"></script>
-<script type="text/javascript" src="js/localscroll/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="js/nav.js"></script>-->
+<script type="text/javascript" src="js/nav.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
