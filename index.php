@@ -152,8 +152,9 @@
 	</div><!--#main-->
 </div><!--#container-->
 <script defer src="js/jquery.flexslider.js"></script>
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<script src="js/jquery.1.9.1.js"></script>
 <script src="js/jquery.inview.js"></script>
 <script type="text/javascript" src="js/nav.js"></script>
 <script type="text/javascript">

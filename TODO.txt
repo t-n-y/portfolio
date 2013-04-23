@@ -14,7 +14,9 @@ hover sur text carousel = animate
 
 fleche carousel visible sur touch ? ou que au hover
 
-internationnalisation
+internationnalisation(tuto grafikart)
+
+info bulles nav (tuto grafikart)
 
 Apres changement nom de domaine
 ----------------------------------------------------------------------------------------------------
