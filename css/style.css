@@ -227,7 +227,7 @@ p, a, input, textarea {font-family: 'Advent Pro', sans-serif;}
 /*-------------------------------------------navigation---------------------------------------*/
 nav {position: fixed;left: 1%;top: 12%;z-index:999;}
 nav a {margin-bottom:10px;}
-.active{color:#106cc1;background-color:#FFFFFF;display:block;width:35px;height:35px;border-radius:35px;font-size: 26px;}
+.active{background-color:#FFFFFF;color:#106cc1;display:block;width:35px;height:35px;border-radius:35px;font-size: 26px;}
 .btn-gris {background-color:#858484;display:block;width:35px;height:35px;border-radius:35px;font-size: 26px;}
 .no-touch .btn-gris:hover {background-color:#FFFFFF;color:#106cc1;}
 

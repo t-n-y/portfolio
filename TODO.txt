@@ -21,7 +21,7 @@ scroll : http://www.youtube.com/watch?v=UydUZLyjKTo
 active sur bouton lors du scroll -> bugs, revoir la logique
 
 
-$('nav li a').click(function()){
+$('nav li a').click(function(){
        $('nav li a').removeClass('active');
        $(this).addClass('active');
        var id = $(this).attr('href');
