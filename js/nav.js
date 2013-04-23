@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+	//add active class on nav item click
 	$('nav li a').click(function(){
 	   $('nav li a').removeClass('active');
 	   $('nav li a').addClass('btn-gris');
@@ -9,7 +10,7 @@ $(document).ready(function() {
 	   scrollTo(id);
 	   return false; 
 	});
-	
+	//smooth scroll nav
 	function scrollTo(target){
 	    if($(target).length>=1){
 	        height=$(target).offset().top;
@@ -18,11 +19,13 @@ $(document).ready(function() {
 	    return false;
 	}
 	
+	//slider infos on touch mobiles
 	$('.touch #slider li .blocTxt').on("click", function(){
 		$('.touch #slider li .blocTxt span').toggle();
 		$('.touch #mainCarousel #slider .blocTxt').css({'opacity': '0.8', 'background-position': '94% 20%'});
 	});
 	
+	//slider options
 	$('#carousel').flexslider({
 	    animation: "slide",
 	    controlNav: false,
@@ -42,6 +45,7 @@ $(document).ready(function() {
 	  });
 	  	
 	  
+	  //animate the skills bar when a part of the page is visible
 	  $('.skillbar2').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
 		  if (isInView) {
 			  // element is now visible in the viewport

@@ -1,4 +1,18 @@
-﻿<!doctype html>
+﻿<?php
+	$ua = $_SERVER['HTTP_USER_AGENT'];
+    if (strpos($ua,'MSIE') != false && strpos($ua,'Opera') === false)
+    {
+		if (strpos($ua,'Windows NT 5.2') != false)
+		{
+			if(strpos($ua,'.NET CLR') === false) return;
+		}
+		if (substr($ua,strpos($ua,'MSIE')+5,1) < 9)
+		{
+			$ifIe = 'Vous utilisez un navigateur trop ancien. <a href="http://browsehappy.com/">Mettez le à jour</a> pour améliorer la navigation.';
+        }
+	}
+	?>
+<!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -17,7 +31,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Advent+Pro:500' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/>
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
 	<script type="text/javascript" src="js/modernizr.custom.84859.js"></script>
 </head>
 
@@ -26,20 +39,9 @@
 <div id="fb-root"></div>
 <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>           
 <!-- if ie6/7/8 -->
-	<?php
-        $ua = $_SERVER['HTTP_USER_AGENT'];
-        if (strpos($ua,'MSIE') != false && strpos($ua,'Opera') === false)
-        {
-	         if (strpos($ua,'Windows NT 5.2') != false)
-	        {
-	        if(strpos($ua,'.NET CLR') === false) return;
-	        }
-	        if (substr($ua,strpos($ua,'MSIE')+5,1) < 9)
-	        {
-	        echo 'Vous utilisez un navigateur trop ancien. <a href="http://browsehappy.com/">Mettez le à jour</a> pour améliorer la navigation.';
-	        }
-	    }
-	?>
+<?php if (isset($ifIe)):?>
+	<?php echo $ifIe;?>
+<?php endif;?>
 <div id="container">
 	<div id="main">
 		<header>
