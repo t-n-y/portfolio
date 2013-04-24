@@ -69,7 +69,4 @@ $(document).ready(function() {
 		 	// element has gone out of viewport
 		  }
 	  });
-	  
-		  
-		  
 });

@@ -25,8 +25,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Portfolio de Guillaume Leclercq</title>
-	<meta name="description" content="ceci est mon portfolio">
+	<title>Portfolio de Guillaume Leclercq | Intégrateur - Développeur</title>
+	<meta name="description" content="Intégration - Développement de site web | Nouvelles technologies - Paris - France">
+	<meta name="keywords" content="intégration, développement, site, internet, paris, web, html5, php, responsive design" />
+	<meta name="Author" content="Guillaume Leclercq">
 	<link type="text/plain" rel="author" href="http://www.iesanetwork.com/g.leclercq/humans.txt" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">

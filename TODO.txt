@@ -4,8 +4,6 @@ REFAIRE MON CV !!
 
 verifier css carousel
 
-validation w3c
-
 toggle => slideToggle
 
 mettre le "plus" devant le titre de la photo 
@@ -17,6 +15,8 @@ fleche carousel visible sur touch ? ou que au hover
 internationnalisation(tuto grafikart)
 
 info bulles nav (tuto grafikart)
+
+mentions legales 
 
 Apres changement nom de domaine
 ----------------------------------------------------------------------------------------------------
