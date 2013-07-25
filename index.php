@@ -76,7 +76,6 @@
 								<div class="skillbar progress"></div>
 							</div>
 						</div>
-						
 						<div class="skill clearfix">
 							<p>responsive design</p>
 							<div class="anim">
@@ -90,21 +89,18 @@
 								<div class="skillbar3 progress"></div>
 							</div>
 						</div>
-						
 						<div class="skill clearfix">
 							<p>Jquery - Javascript</p>
 							<div class="anim">
 								<div class="skillbar4 progress"></div>
 							</div>
 						</div>
-						
 						<div class="skill clearfix">
 							<p>drupal</p>
 							<div class="anim">
 								<div class="skillbar5 progress"></div>
 							</div>
 						</div>
-						
 						<div class="skill clearfix">
 							<p>wordpress</p>
 							<div class="anim">
