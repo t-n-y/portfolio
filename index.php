@@ -76,6 +76,7 @@
 								<div class="skillbar progress"></div>
 							</div>
 						</div>
+						
 						<div class="skill clearfix">
 							<p>responsive design</p>
 							<div class="anim">
@@ -89,18 +90,21 @@
 								<div class="skillbar3 progress"></div>
 							</div>
 						</div>
+						
 						<div class="skill clearfix">
 							<p>Jquery - Javascript</p>
 							<div class="anim">
 								<div class="skillbar4 progress"></div>
 							</div>
 						</div>
+						
 						<div class="skill clearfix">
 							<p>drupal</p>
 							<div class="anim">
 								<div class="skillbar5 progress"></div>
 							</div>
 						</div>
+						
 						<div class="skill clearfix">
 							<p>wordpress</p>
 							<div class="anim">
@@ -109,10 +113,10 @@
 						</div>
 					</div>
 					<div class="presentation">
-						<p>Je m'appelle Guillaume, j'ai <?php //add this on serveur changeecho $age;?>25 ans et ce site est mon portfolio.</p>
+						<p>Je m'appelle Guillaume, j'ai <?php //add this on serveur change echo $age;?>25 ans et ce site est mon portfolio.</p>
 						<p>J'ai suivi une formation de chef de projet multimédia à l'IESA Multimédia. Je me suis ensuite spécialisé dans l'intégration puis le développement.</p>
-						<p>J'ai d'autant plus été séduit par le responsive design. J'aime le défi d'adapter un seul site sur tous les supports.</p>
-						<a href="images/cv.pdf" id="cv" class="btn">Télécharger mon cv</a>
+						<p>J'ai également acquis des connaissance en matière de framework MVC tels que Symfony2 ou Alloy. Je suis capable de travailler en groupe et connais les outils de versioning comme GIT.</p>
+						<a href="images/cv.pdf" download="cv_guillaume_leclercq.pdf" id="cv" class="btn">Télécharger mon cv</a>
 					</div>
 				</article>
 			
