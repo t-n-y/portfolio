@@ -2,13 +2,13 @@
 	<section class="slider">
 		<div id="slider" class="flexslider btn">
 			<ul class="slides">
-			  <!--   <li>
+			   <li>
 					<img class="pics" src="images/symfony2-citron-home.jpg" alt="Site du citron | Développement Symfony2">
 					<div class="blocTxt">
 						<p class="TxtSlider"><a href="http://www.ncorre-web.fr/labs/Citron/www/">Site du citron</a><br>
 						<span>Page d'accueil - Développement Symfony2</span></p>
 					</div>
-				</li> -->
+				</li>
 				<li>
 					<img class="pics" src="images/symfony2-citron-gallerie.jpg" alt="Site du citron | Développement Symfony2">
 					<div class="blocTxt">
@@ -104,9 +104,9 @@
         </div>
         <div id="carousel" class="flexslider btn">
 			<ul class="slides">
-			  <!--    <li>
+			    <li>
 					<img class="pics" src="images/symfony2-citron-home.jpg" alt="Site du citron | Développement Symfony2">
-				</li>-->
+				</li>
 				<li>
 					<img class="pics" src="images/symfony2-citron-gallerie.jpg" alt="Site du citron | Développement Symfony2">
 				</li>
